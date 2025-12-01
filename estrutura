@@ -1,24 +1,7 @@
-TERRITORIO 1:
-- Nome: America
-- Dominado por: Exercito Cinza
-- Tropas: 3
+#include <stdio.h>
 
-TERRITORIO 2:
-- Nome: Europa
-- Dominado por: Exercito Rosa
-- Tropas: 3
-
-TERRITORIO 3:
-- Nome: Asia
-- Dominado por: Exercito Laranja
-- Tropas: 5
-
-TERRITORIO 4:
-- Nome: Africa
-- Dominado por: Exercito Amarelo
-- Tropas: 4
-
-TERRITORIO 5:
-- Nome: Brasil
-- Dominado por: Exercito Verde
-- Tropas: 2
+typedef struct {
+    char nome[30];
+    char cor[10];
+    int tropas;
+} Territorio;
